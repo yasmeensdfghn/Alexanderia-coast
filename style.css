@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#beach-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+#beaches div {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
